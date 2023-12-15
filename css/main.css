@@ -26,6 +26,8 @@ img{
     background: cornflowerblue;
     min-height: 100dvh;
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
 }
 .nav{
     padding: 25px 0;
@@ -50,11 +52,13 @@ img{
     text-transform: uppercase;
     color: #fff;
 }
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
 .header-title{
     font-size: 6vh;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-grow: 1;
 }
