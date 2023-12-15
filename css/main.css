@@ -50,3 +50,11 @@ img{
     text-transform: uppercase;
     color: #fff;
 }
+.header-title{
+    font-size: 6vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-grow: 1;
+}
